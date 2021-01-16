@@ -1,0 +1,43 @@
+@import "../../vars.scss";
+
+
+.recipe{
+    border: 1px solid $black;
+    display: inline-block;
+    margin: 20px;
+}
+
+.img{
+    width: 100%;
+    // border-radius: 2rem;
+    // margin: 20px;
+}
+
+.calories{
+    // font-family: "Akzidenz Grotesk";
+    font-family: "Futura";
+
+    
+}
+.title{
+    color:$green;
+    margin: 5px;
+    font-size: 20px;
+    font-family:  "Helvetica Neue", Helvetica, sans-serif;
+     font-family: "Futura";
+}
+
+.source{
+    font-size: 13px;
+    text-decoration: none;
+    color: $black;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    &:before{
+        content:"source ";
+        color: $black;
+    }
+    &:hover{
+        color: $green;
+
+    }
+}

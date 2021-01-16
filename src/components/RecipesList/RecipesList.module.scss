@@ -1,0 +1,10 @@
+
+
+.recipes-list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 50px;
+  transition: height 300ms;
+}
+
+
