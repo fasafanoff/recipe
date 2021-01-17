@@ -26,7 +26,7 @@ const App = () => {
 
   const updateSearch = (e) => {
     setSearch(e.target.value);
-  };
+  };  
   const getSearch = (e) => {
     e.preventDefault();
     setQuery(search);

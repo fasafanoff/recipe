@@ -1,8 +1,8 @@
 @import "../../vars.scss";
-
+//8, 16, 24, 32, 48, 64, 95
 .navbar {
   background-color: $black;
-  padding: 25px 20px;
+  padding: 24px 0;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -13,21 +13,21 @@
   box-sizing: border-box;
   display: flex;
   border-radius: 2rem;
-  font-size: 20px;
+  font-size: 24px;
   background-color: $white;
 
   border: 2px solid $black; 
 
-  padding-left: 10px;
+  padding-left: 8px;
   transition:box-shadow 160ms;
   &_active {
     box-shadow: 0 0 4px 0 $green;
     border-color:$black;
   }
 }
-
+//8, 16, 24, 32, 48, 64, 95
 .input {
-  font-size: 20px;
+  font-size: 24px;
   border: 0;
   width: 100%;
   background-color: transparent;
@@ -37,7 +37,7 @@
 
 .button {
   background-color: transparent;
-  font-size: 20px;
+  font-size: 24px;
   border: 0;
   cursor: pointer;
 
@@ -47,7 +47,7 @@
     color: $green;
   }
 }
-
+//8, 16, 24, 32, 48, 64, 95
 .searchHelp {
   font-family: "Futura";
   opacity: 0;
@@ -55,9 +55,9 @@
   border: 1px solid $white;
   color: $white;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
-  line-height: 29px;
+  line-height: 32px;
   padding: 0px 10px;
   position: absolute;
   text-align: center;
@@ -72,8 +72,8 @@
     height: 0;
     width: 0;
     position: relative;
-    top: (-6px - 30px);
-    left: 30px;
+    top: (-6px - 32px);
+    left: 34px;
     
     & > div {
       border-width: 0px 6px 6px;
