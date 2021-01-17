@@ -1,16 +1,20 @@
 @import "../../vars.scss";
-
+//8, 16, 24, 32, 48, 64, 95
 
 .recipe{
     border: 1px solid $black;
-    display: inline-block;
-    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 4fr 1fr 1fr 1fr;
+    max-height:670px;
 }
 
 .img{
-    width: 100%;
+    width: 100%; 
+    display: block;
     // border-radius: 2rem;
     // margin: 20px;
+    // max-width: 500px;
 }
 
 .calories{
@@ -21,23 +25,55 @@
 }
 .title{
     color:$green;
-    margin: 5px;
-    font-size: 20px;
+    margin: 0;
+    // margin: 8px;
+    font-size: 32px;
     font-family:  "Helvetica Neue", Helvetica, sans-serif;
-     font-family: "Futura";
+    font-family: "Futura";
+    display: block;
 }
 
 .source{
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: none;
     color: $black;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-    &:before{
-        content:"source ";
-        color: $black;
-    }
+    display: flex; 
+    position: relative;
+    justify-self: end;
+    align-self: end;
+    margin: 0;
+    display: block;
+
+
+
     &:hover{
         color: $green;
 
     }
+}
+
+
+
+@media(max-width:1400px)
+{
+  
+}
+
+@media(max-width:1100px)
+{
+  
+   
+}
+
+
+@media(max-width:600px)
+{
+  
+   .recipe{
+        border: 0;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+    }
+
 }

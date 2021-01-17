@@ -1,0 +1,20 @@
+@import "../../vars.scss";
+
+.TAGS{
+    font-size: 16px;
+    color: $black;
+ display: block;
+}
+//8, 16, 24, 32, 48, 64, 95
+
+.TAG{
+ text-decoration: none;
+ color: $white;
+ background-color: $black;
+ font-family: cursive;
+ &:hover{
+     color: $green;
+ }
+
+}
+

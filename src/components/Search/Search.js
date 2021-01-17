@@ -19,7 +19,6 @@ const Search = (props) => {
     Help.current.style["opacity"] = `1`;
   };
   const HelpButtonHide = (e) => {
-    const rect = e.target.getBoundingClientRect();
     Help.current.style["opacity"] = `0`;
   };
 
