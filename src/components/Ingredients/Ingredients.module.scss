@@ -1,12 +1,16 @@
 
-.ingredients{
+.ingredientsList{
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-    overflow:hidden;
-    height:0;
     transition:height 300ms;
-    position: absolute;
-    display: inline-block;
 }
 .ingredient{
+
+}
+
+.ingredients{
+        grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
 
 }
